@@ -12,7 +12,7 @@ function Employee() {
     const [phoneData, setPhoneData] = useState(EmployeePhones);
     const [addressData, setAddressData] = useState(EmployeeAddresses);
     const [submissionStatus, setSubmissionStatus] = useState(null); // null = initial, true = success, false = failure
-    const [responseData, setResponseData] = useState(null); // State variable to store response data
+    const [responseData, setResponseData] = useState(null); 
 
 
 
